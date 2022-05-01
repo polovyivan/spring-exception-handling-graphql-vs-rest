@@ -1,0 +1,13 @@
+scalar Date
+
+type Query {
+     customerById (customerId : String) : CustomerResponse
+}
+
+type CustomerResponse {
+      id : String
+      fullName : String
+      phoneNumber : String
+      address : String
+      createdAt : Date
+}
