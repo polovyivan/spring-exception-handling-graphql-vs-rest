@@ -26,11 +26,6 @@ logging:
         orm:
           jpa: DEBUG
         transaction: DEBUG
-        data:
-          mongodb:
-            core:
-              ReactiveMongoTemplate: DEBUG
-              MongoTemplate: DEBUG
       hibernate:
         SQL: DEBUG
         type:
